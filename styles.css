@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f0f4ff, #d6e0ff);
+  color: #333;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.time-display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn.start {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn.pause {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn.reset {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn.lap {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.lap-times {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.lap-times h3 {
+  margin-bottom: 10px;
+}
+
+#lap-list {
+  list-style: none;
+  padding: 0;
+}
+
+#lap-list li {
+  padding: 5px;
+  margin: 5px 0;
+  background: #f7f9ff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
